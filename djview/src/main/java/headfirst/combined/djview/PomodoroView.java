@@ -203,6 +203,18 @@ public class PomodoroView implements ActionListener,  BeatObserver, BPMObserver 
 	public JButton getDecreaseBPMButton() {
 		return decreaseBPMButton;
 	}
+
+	public JMenuItem getStopMenuItem() {
+		return stopMenuItem;
+	}
+
+	public void setStopMenuItem(JMenuItem stopMenuItem) {
+		this.stopMenuItem = stopMenuItem;
+	}
+
+	public JButton getIncreaseBPMButton() {
+		return increaseBPMButton;
+	}
 	
 	
 
